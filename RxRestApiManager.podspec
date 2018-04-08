@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RxRestApiManager"
-  s.version      = "0.0.1"
-  s.summary      = "RxRestApiManager."
+  s.version      = "0.0.2"
+  s.summary      = "RxRestApiManager"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 
@@ -26,8 +26,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "RxRestApiManager description"
 
   s.homepage     = "https://github.com/Panevnyk"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
