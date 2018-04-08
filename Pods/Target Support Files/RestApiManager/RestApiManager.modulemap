@@ -1,0 +1,6 @@
+framework module RestApiManager {
+  umbrella header "RestApiManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
