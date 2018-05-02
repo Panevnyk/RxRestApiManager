@@ -1,15 +1,20 @@
 PODS:
-  - RestApiManager (0.0.8)
+  - RestApiManager (0.1.0)
   - RxSwift (4.1.2)
 
 DEPENDENCIES:
   - RestApiManager
   - RxSwift
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RestApiManager
+    - RxSwift
+
 SPEC CHECKSUMS:
-  RestApiManager: e91d401384c580ea5d2d21870c03acacd75d3385
+  RestApiManager: 0ffb5c00581541c66c4aa4c751fefbb69509f708
   RxSwift: e49536837d9901277638493ea537394d4b55f570
 
 PODFILE CHECKSUM: 86861c6dabf306267bb4c08f52d4f90428e31c6e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
