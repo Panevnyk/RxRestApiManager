@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RxRestApiManager"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "RxRestApiManager"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
