@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B1200484B10670720F3C922F7D3043DC"
+               BlueprintIdentifier = "CB5D1AF4A6EA4134A2CD3A6334DBB96F"
                BlueprintName = "RestApiManager"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "RestApiManager.framework">
