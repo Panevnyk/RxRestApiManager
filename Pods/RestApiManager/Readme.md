@@ -1,19 +1,19 @@
-# RXRestApiManager
+# RestApiManager
 
-RxRestApiManager is a Rx wrapper on  RestApiManager lib.
+RestApiManager lib created for helping you create network request and automatically map response.
 
 ## CocoaPods
 
-For RxRestApiManager, use the following entry in your Podfile:
+For RestApiManager, use the following entry in your Podfile:
 
 ```rb
-pod 'RxRestApiManager'
+pod 'RestApiManager'
 ```
 
 Then run `pod install`.
 
 In any file you'd like to use RestApiManager in, don't forget to
-import the framework with `import RxRestApiManager`.
+import the framework with `import RestApiManager`.
 
 ## License
 
