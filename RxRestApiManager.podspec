@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RxRestApiManager"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "RxRestApiManager"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
 
   # This description is used to generate tags and improve search results.

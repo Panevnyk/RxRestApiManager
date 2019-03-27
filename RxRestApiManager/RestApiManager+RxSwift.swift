@@ -20,7 +20,7 @@ public extension RestApiManager {
     /// - Parameters:
     ///   - method: RestApiMethod
     /// - Returns: Observable<T>
-    public func call<T: Associated>(method: RestApiMethod) -> Observable<T> {
+    func call<T: Associated>(method: RestApiMethod) -> Observable<T> {
         return Observable<T>.create { observer in
             self.call(method: method) { (result: Result<T>) in
                 switch result {
@@ -39,7 +39,7 @@ public extension RestApiManager {
     /// - Parameters:
     ///   - method: RestApiMethod
     /// - Returns: Observable<String>
-    public func call(method: RestApiMethod) -> Observable<String> {
+    func call(method: RestApiMethod) -> Observable<String> {
         return Observable<String>.create { observer in
             self.call(method: method) { (result: Result<String>) in
                 switch result {
@@ -63,7 +63,7 @@ public extension RestApiManager {
     ///   - multipartData: MultipartData
     ///   - method: RestApiMethod
     /// - Returns: Observable<T>
-    public func call<T: Associated>(multipartData: MultipartData, method: RestApiMethod) -> Observable<T> {
+    func call<T: Associated>(multipartData: MultipartData, method: RestApiMethod) -> Observable<T> {
         return Observable<T>.create { observer in
             self.call(multipartData: multipartData, method: method) { (result: Result<T>) in
                 switch result {
@@ -83,7 +83,7 @@ public extension RestApiManager {
     ///   - multipartData: MultipartData
     ///   - method: RestApiMethod
     /// - Returns: Observable<String>
-    public func call(multipartData: MultipartData, method: RestApiMethod) -> Observable<String> {
+    func call(multipartData: MultipartData, method: RestApiMethod) -> Observable<String> {
         return Observable<String>.create { observer in
             self.call(multipartData: multipartData, method: method) { (result: Result<String>) in
                 switch result {

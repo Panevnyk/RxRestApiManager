@@ -9,7 +9,19 @@
 import Foundation
 
 /// Result
+///
+/// - success: <T>
+/// - failure: RestApiError
 public enum Result<T> {
     case success(T)
     case failure(RestApiError)
+}
+
+/// ResultWithET
+///
+/// - success: <T>
+/// - failure: <ET: RestApiError>
+public enum ResultWithET<T, ET: RestApiError> {
+    case success(T)
+    case failure(ET)
 }
